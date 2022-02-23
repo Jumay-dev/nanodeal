@@ -10,19 +10,19 @@ export const Card: FC<any> = () => {
   return <div className="card">
     <div className="card__header">
       <div className="brand">
-        <img width="36" height="36" src={logo}/>
+        <img width="36" height="36" src={logo} alt="..."/>
         <span className="brand__text">Nike</span>
       </div>
       <div className="tag">Активное</div>
     </div>
 
     <div className="card__image">
-      <img src={cardImage}/>
+      <img src={cardImage} alt="..."/>
     </div>
     <div className="card__info">
       <div className="card__title">Записать сторис в кросcовках Nike Air Max 720</div>
       <div className="card__gift">
-        <img src={gift}/>
+        <img src={gift} alt="..."/>
         <span className="card__gift_text">Репост строис в официальном аккаунте NikeRussia</span>
       </div>
       <div className="divider" />
@@ -30,7 +30,7 @@ export const Card: FC<any> = () => {
         <span className="item__text">Новые сообщения</span>
         <div className="item__actions">
           <div className={`actions__counter`}>55</div>
-          <img src={arrow}/>
+          <img src={arrow} alt="..."/>
         </div>
       </CardItem>
       <div className="divider" />
@@ -38,7 +38,7 @@ export const Card: FC<any> = () => {
         <span className="item__text">Новые заявки</span>
         <div className="item__actions">
           <div className={`actions__counter actions__counter_disabled`}>0</div>
-          <img src={arrow}/>
+          <img src={arrow} alt="..."/>
         </div>
       </CardItem>
       <CardItem>

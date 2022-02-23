@@ -9,19 +9,19 @@ export const Filter: FC = () => {
   return (
     <div className="filter">
       <div className="filter__item filter__item_active">
-        <img src={active}/>
+        <img src={active} alt="..."/>
         Активные
       </div>
       <div className="filter__item">
-        <img src={moderate}/>
+        <img src={moderate} alt="..."/>
         На модерации
       </div>
       <div className="filter__item">
-        <img src={drafts}/>
+        <img src={drafts} alt="..."/>
         Черновики
       </div>
       <div className="filter__item">
-        <img src={archieve}/>
+        <img src={archieve} alt="..."/>
         Архив
       </div>
     </div>

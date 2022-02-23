@@ -13,35 +13,35 @@ export const Sidebar: FC = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__logo">
-        <img src={logo}/>
+        <img src={logo} alt="..."/>
       </div>
       <div className="menu-points">
         <div className="sidebar__item">
-          <img src={dashboard}/>
+          <img src={dashboard} alt="..."/>
           Dashboard
         </div>
         <div className="sidebar__item sidebar__item_active">
-          <img src={offers}/>
+          <img src={offers} alt="..."/>
           Предложения
         </div>
         <div className="sidebar__item">
-          <img src={addNew}/>
+          <img src={addNew} alt="..."/>
           Добавить новое
         </div>
         <div className="sidebar__item">
-          <img src={stats}/>
+          <img src={stats} alt="..."/>
           Статистика
         </div>
         <div className="sidebar__item">
-          <img src={profile}/>
+          <img src={profile} alt="..."/>
           Профиль
         </div>
         <div className="sidebar__item">
-          <img src={support}/>
+          <img src={support} alt="..."/>
           Поддержка
         </div>
         <div className="sidebar__item">
-          <img src={billing}/>
+          <img src={billing} alt="..."/>
           Billing
         </div>
       </div>

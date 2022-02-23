@@ -7,10 +7,10 @@ import userPic from '../../assets/user-avatar.png'
 export const MobileHeader: FC = () => {
   return (
     <div className="mobile-header">
-      <img src={burger}/>
-      <img src={logo}/>
+      <img src={burger} alt="..."/>
+      <img src={logo} alt="..."/>
       <div className="userpic">
-        <img src={userPic}/>
+        <img src={userPic} alt="..."/>
       </div>
     </div>
   )

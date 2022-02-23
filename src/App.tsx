@@ -22,7 +22,7 @@ function App() {
                 <Search />
               </div>
               <div className="userpic">
-                <img src={userpic}/>
+                <img src={userpic} alt="..."/>
               </div>
             </div>
           </div>
