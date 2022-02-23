@@ -1,0 +1,21 @@
+.filter {
+    display: flex;
+    margin-bottom: 25px;
+    overflow-x: scroll;
+}
+
+.filter__item {
+    padding: 10px 17px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.filter__item img {
+    margin-right: 8px;
+}
+
+.filter__item_active {
+    background: #FFFFFF;
+    border-radius: 10px;
+}

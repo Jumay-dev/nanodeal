@@ -6,6 +6,12 @@
     margin-right: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        display: none;
+    }
+}
+
 .sidebar__logo {
     width: 150px;
     height: 46px;
