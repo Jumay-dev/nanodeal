@@ -1,0 +1,33 @@
+.search {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 13px;
+    background: #FFFFFF;
+}
+
+.search input[type=text] {
+    background: transparent;
+    height: 36px;
+    padding-left: 40px;
+    position: relative;
+    width: 100%;
+    border: none;
+}
+
+.search input[type=text]::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9A99B8;
+}
+
+.search input[type=text]:focus-visible {
+    outline: none;
+}
+
+.search img {
+    position: absolute;
+    z-index: 99;
+    margin-left: 10px;
+    margin-top: 10px;
+}

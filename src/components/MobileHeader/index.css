@@ -1,0 +1,14 @@
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+    .mobile-header {
+        display: none;
+    }
+}

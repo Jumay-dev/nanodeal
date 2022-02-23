@@ -1,12 +1,17 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 343px;
-    min-width: 343px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(233, 216, 207, 0.3);
     border-radius: 4px 20px 20px 20px;
     padding: 14px;
+}
+
+@media screen and (min-width: 1025px) {
+    .card {
+        width: 343px;
+        min-width: 343px;
+    }
 }
 
 .card__header {
