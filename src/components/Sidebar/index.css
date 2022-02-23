@@ -1,0 +1,42 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.sidebar__logo {
+    width: 150px;
+    height: 46px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu-points {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.sidebar__item {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #2D3134;
+    padding: 15px 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.sidebar__item img {
+    margin-right: 20px;
+}
+
+.sidebar__item_active {
+    color: #FFFFFF;
+    background: #FE8862;
+}
